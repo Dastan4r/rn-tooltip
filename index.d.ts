@@ -21,4 +21,6 @@ type Props = {
 
 export default class Tooltip extends React.Component<Props, any> {
   toggleTooltip: () => void;
+  openTooltip: () => void;
+  closeTooltip: () => void;
 }
